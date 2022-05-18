@@ -35,37 +35,45 @@
                     <input type="text"
                            id="first-name-letter-a"
                            name="first-name-letter-a"
-                           pattern="[A-Z]" />
+                           pattern="[A-Z]"
+                           title="Must be a upper letter. (Have some respect fo yourself)" />
                     <br />
                     <label for="first-name">First Name (second letter):</label>
                     <input type="text"
                            id="first-name-letter-b"
                            name="first-name-letter-b"
-                           pattern="[A-Z]" />
+                           pattern="[a-z]"
+                           title="Must be a lower case letter." />
                     <br />
                     <label for="first-name">First Name (third letter):</label>
                     <input type="text"
                            id="first-name-letter-c"
                            name="first-name-letter-c"
-                           pattern="[a-z]" />
+                           pattern="[a-z]"
+                           title="Must be a lower case letter." />
                     <br />
                     <label for="first-name">First Name (fourth letter):</label>
                     <input type="text"
                            id="first-name-letter-d"
                            name="first-name-letter-d"
-                           pattern="[a-z]" />
+                           pattern="[a-z]"
+                           title="Must be a lower case letter." />
+
                     <br />
                     <label for="first-name">First Name (fifth letter):</label>
                     <input type="text"
                            id="first-name-letter-e"
                            name="first-name-letter-e"
-                           pattern="[a-z]" />
+                           pattern="[a-z]"
+                           title="Must be a lower case letter." />
+
                     <br />
                     <label for="first-name">First Name (sixth letter):</label>
                     <input type="text"
                            id="first-name-letter-f"
                            name="first-name-letter-f"
-                           pattern="[a-z]" />
+                           pattern="[a-z]"
+                           title="Must be a lower case letter." />
                     <div class="tooltip"><img src="src/Tooltip.png"
                              width="15">
                         <span class="tooltiptext">We are trying to save on space (if your name is longer 🤷)</span>
@@ -76,7 +84,9 @@
                     <input type="text"
                            id="last-name-letter-a"
                            name="last-name-letter-a"
-                           pattern="[A-Z]" />
+                           pattern="[A-Z]"
+                           title="Must be a upper case letter. (Have some respect fo youself)" />
+
                     <br />
                     <label for="last-name">Last Name (second letter):</label>
                     <input type="text"
@@ -292,7 +302,9 @@
                     <label for="email">Email:</label>
                     <input type="email"
                            id="email"
-                           name="email" />
+                           pattern=".+@email\.com"
+                           required />
+
                     <br />
                 </div>
                 <div class="resume-phone">
@@ -319,8 +331,8 @@
                     <textarea id="description"
                               name="description"
                               cols="50"
-                              rows="15"
-                              maxlength="500"></textarea>
+                              rows="5"
+                              maxlength="10"></textarea>
                 </div>
                 <div id="resume-submit">
                     <br />
