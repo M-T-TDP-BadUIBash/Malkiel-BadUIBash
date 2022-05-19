@@ -25,7 +25,7 @@
               action="Submission.html">
             <div id="resume-title">
                 <h1>
-                    Submit Your Resum&eacute;
+                    Please enter your information below!
                 </h1>
             </div>
             <div id="resume-inputs">
@@ -305,7 +305,7 @@
                     <input type="email"
                            id="email"
                            pattern=".+@gmail\.com"
-                           title="Due to our relationship with Google, only Gmail accounts are allowed."
+                           title="Due to our valued relationship with Google, only Gmail accounts are allowed."
                            required />
 
                     <br />
@@ -317,6 +317,8 @@
                            id="input"
                            placeholder="Use the Rotary Phone ->"
                            data-rotary="#demo"
+                           pattern="^[0-9]{3}-[0-9]{3}-[0-9]{4}$"
+                           title="Please enter a valid US phone number in the format ###-###-####"
                            required>
                     <br />
                 </div>

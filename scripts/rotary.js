@@ -71,9 +71,13 @@ var init = function () {
   $('body').removeClass('nojs');
 
   $(function () {
-    $('#input').keypress(function (event) {
-      event.preventDefault();
-      return false;
+    $('#input').on('keypress', function (event) {
+      var regex = new RegExp("[-]");
+      var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+      if (!regex.test(key)) {
+        event.preventDefault();
+        return false;
+      }
     });
   });
 

@@ -14,7 +14,7 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(62%, -25%);
+  transform: translate(62%, 20%);
   text-align: center;
   background-color: #000;
   color: #FFF;
@@ -22,7 +22,7 @@
 
   width: 400px;
   transition: clip-path .5s ease;
-  clip-path: polygon(0 0, 1% 0%, 5% 100%, 0% 100%);
+  clip-path: polygon(0 0, 40% 0%, 5% 100%, 0% 100%);
 }
 
 #demo:hover {
