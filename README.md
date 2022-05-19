@@ -27,4 +27,4 @@ This project was created in html/css/js, using the provided template.
 
 You can clone this repository and simply open the index.html file in your browser, and you should be able to locally host a copy of this project!
 
-Alternatively, this project is also hosed on my github pages [here](https://m-t-tdp-baduibash.github.io/Malkiel-BadUIBash/)!
+Alternatively, this project is also hosted on my github pages [here](https://m-t-tdp-baduibash.github.io/Malkiel-BadUIBash/)!
