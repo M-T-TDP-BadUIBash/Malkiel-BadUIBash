@@ -1,4 +1,3 @@
-# BadUIBash
 # Bad UI Bash 2022
 
 This is my entry to the M&T Tech Bad UI Bash. This project involves creating awful user interfaces *intentionally*. For this year, our task was to create a resume submission page with a twist.
