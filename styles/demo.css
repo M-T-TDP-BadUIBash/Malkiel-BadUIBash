@@ -22,7 +22,7 @@
 
   width: 400px;
   transition: clip-path .5s ease;
-  clip-path: polygon(0 0, 40% 0%, 5% 100%, 0% 100%);
+  clip-path: polygon(0 0, 20% 0%, 5% 100%, 0% 100%);
 }
 
 #demo:hover {
